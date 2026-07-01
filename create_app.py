@@ -1,4 +1,4 @@
-import streamlit as st
+code = """import streamlit as st
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -183,3 +183,9 @@ elif page == "💬 AI Chatbot":
                     missing_skills=st.session_state.ats_result['missing_skills'] if st.session_state.ats_result else []
                 )
             st.markdown(answer)
+"""
+
+with open("streamlit_app/app.py", "w", encoding="utf-8") as f:
+    f.write(code)
+
+print("app.py updated successfully!")
