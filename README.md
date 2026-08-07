@@ -297,23 +297,8 @@ Without App Password the email sending will fail.
 - LinkedIn: https://linkedin.com/in/neha-bharti-61956b348
 - Email: nehab3099@gmail.com
 
----
 
-## ⭐ Support
 
-If this project helped you — please give it a star on GitHub!
-
-Share it with fellow freshers who are struggling with job applications!
-
----
-
-Built with love by Neha Bharti — a fresher who got tired of getting ignored and decided to build something about it.
-""" 
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(content)
-
-print("README.md created successfully!")
 
 <!-- # 🤖 AI Recruitment Copilot
 
